@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon site e-commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #categories {
+            margin-bottom: 20px;
+        }
+
+        #categories button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        #categories button:hover {
+            background-color: #666;
+        }
+
+        #products {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            width: 200px;
+            background-color: #eee;
+            padding: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .product h2 {
+            margin-top: 0;
+        }
+
+        .product p {
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .clothes {
+            border: 1px solid blue;
+        }
+
+        .electronics {
+            border: 1px solid green;
+        }
+
+        .books {
+            border: 1px solid orange;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+	<header>
+		<h1>Mon site e-commerce</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Produits</a></li>
+				<li><a href="#">Panier</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<div id="categories">
+			<button data-category="product">Tous les produits</button>
+			<button data-category="clothes">Vêtements</button>
+			<button data-category="electronics">Electronique</button>
+			<button data-category="books">Livres</button>
+		</div>
+		
+		<div id="products">
+			<div class="product clothes">
+				<h2>Chemise</h2>
+				<p>Prix : 29,99€</p>
+			</div>
+			<div class="product electronics">
+				<h2>Téléviseur</h2>
+				<p>Prix : 499,99€</p>
+			</div>
+			<div class="product books">
+				<h2>Romans</h2>
+				<p>Prix : 9,99€</p>
+			</div>
+			<div class="product clothes">
+				<h2>Pantalon</h2>
+				<p>Prix : 39,99€</p>
+			</div>
+			<div class="product electronics">
+				<h2>Ordinateur portable</h2>
+				<p>Prix : 899,99€</p>
+			</div>
+			<div class="product books">
+				<h2>Livres pour enfants</h2>
+				<p>Prix : 4,99€</p>
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<p>Tous droits réservés</p>
+	</footer>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script22.js"></script>
+
+</html>

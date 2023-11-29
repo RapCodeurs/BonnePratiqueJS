@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "chart": "^0.1.2",
+    "js": "^0.1.0",
+    "plotly.js": "^2.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "webpack": "^5.89.0"
+  },
+  "name": "vu",
+  "version": "1.0.0",
+  "main": "bonPratik.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
